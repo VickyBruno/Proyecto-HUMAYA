@@ -1,0 +1,737 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+.presentacion {
+    /*border: violet 2px solid;*/
+    margin-top: 85px;
+    background-image: url(../img/imagenCentral.png);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    
+    
+    
+
+}
+
+
+
+.info-presentacion {
+    /*border: solid 2px white;*/
+    text-align: center;
+    color: white;
+    padding: 0.5rem 0;
+    
+    
+   
+    /*background-color: rgb(19, 19, 19,0.3);*/
+    
+} 
+
+.info-presentacion h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 230%;
+    /*border: solid red 2px;*/
+}
+
+.info-presentacion p {
+    padding: 0 0.5rem;
+}
+
+.info-presentacion button {
+    border: 0;
+    background-color: rgb(23, 23, 23, 0.5);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 40px;
+    font-weight: lighter;
+}
+
+/*SECTION: CALIDAD DEPRODUCTOS*/
+
+.calidad-productos {
+    /*border: 2px orangered solid;*/
+    background-color: #e0bb96;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+h3 {
+    background-color: #e0bb96;
+    text-align: center;
+    height: 70px;
+    /*border: 2px red solid;*/
+    margin-bottom: 0;
+    padding-top: 1rem;
+
+}
+
+.calidad-productos-iconos {
+    /*border: blue 2px solid;*/
+    align-self: center;
+    height: 120px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 0.5rem;
+    
+}
+.calidad-productos img{
+    height: 40px;
+    opacity: 0.5;
+    /*border: solid red 2px;*/
+}
+
+.calidad-productos p {
+    /*border: yellow 2px solid;*/
+    opacity: 0.98;
+    margin-top: 0.5rem;
+    text-align: center;
+    height: 50px;
+    font-size: 90%;
+    
+}
+#text-one {
+    width: 60px;
+}
+
+#text-two {
+    width: 80px;
+}
+
+#text-three {
+    width:110px;
+}
+
+/*SECTION PRODUCTOS*/
+/*
+.productos{
+    border: solid 2px green;  
+    
+}*/
+.productos h3 {
+    /*border: solid 2px red;*/
+    color: white;
+    margin-bottom: 0;
+    height: 70px;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    
+}
+/*
+.dulce-de-leche, .dulce-sin-azucar {
+    border: 2px blue solid;
+    
+}*/
+
+.img-productos-one, .img-productos-two, .img-productos-three{
+    /*border: 2px red solid;*/
+ 
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    
+}
+
+
+.img-productos-one{
+
+    background-image: url(../img/Producto1.png); 
+      
+}
+
+
+.img-productos-two {
+    background-image: url(../img/Producto2.png);
+}
+
+
+.img-productos-three {
+    background-image: url(../img/Producto3.png);
+}
+
+
+
+.info-productos {
+    /*border: 2px green solid;*/
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 1rem;
+    height: 450px;
+    
+    
+    
+    background-color: rgb(18, 18, 18);
+    color: #e0bb96;
+
+   
+}
+
+
+.info-productos p {
+    font-weight: bold;
+    /*border: solid 2px blue;*/
+    padding: 0 0.5rem;
+    
+}
+
+.info-productos h2 {
+    /*border: 2px orange solid;*/
+    margin-bottom: 1rem;
+    
+}
+
+.info-productos button {
+    border-radius: 10%;
+    margin-top: 1rem;
+    border: 2px #e0bb96 solid;
+    color: #e0bb96;
+    background-color: transparent;
+    padding: 0.5rem;
+}
+
+#producto-detalle{
+    color: white; 
+    font-weight: lighter;
+    max-width: 75%;
+    padding: 0.5rem;
+      
+}
+
+.alfajor-maicena {
+    /*border: solid 2px orange;*/
+    display: flex;
+    flex-direction: column;
+
+    height: 650px;
+    background-color: #e0bb96;
+}
+.info-alfajor-maicena{
+    /*border: solid 2px orange;*/
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 0.5rem;
+    padding: 1rem;
+
+}
+
+.contenedor-img-alfajor {
+   /*    border: solid 2px red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    overflow: hidden;
+}
+.contenedor-img-alfajor img {
+    height: 300px;
+    /*border: solid 2px white;*/
+}
+
+.info-alfajor-maicena  {
+    color:rgb(51, 51, 51);
+}
+/*
+.info-alfajor-maicena h2 {
+    border: 2px yellow solid;
+}*/
+
+.info-alfajor-maicena p {
+    /*border: solid 2px red;*/
+    font-weight: bold;
+}
+
+#producto-detalle-maicena {
+    color: white;
+    /*border: solid 2px black;*/
+    font-weight: normal;
+    max-width: 250px;
+}
+
+.info-alfajor-maicena button {
+    border-radius: 10%;
+    margin-top: 1rem;
+    border: 2px rgb(51, 51, 51) solid;
+    color:rgb(51, 51, 51);
+    background-color: transparent;
+    padding: 0.5rem;
+}
+
+/*SECTION FORMULARIO*/
+
+.contacto h3 {
+    color: white;
+    margin-bottom: 0;
+    height: 70px;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagen-formulario {
+    background-image: url(../img/Producto5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width:100%;
+    
+    /*border: solid 2px orange;*/
+}
+
+
+
+.formulario-contacto {
+    /*border: solid 2px blue;*/
+    color: #d3b195;
+    font-weight: bolder;
+    padding: 0;
+    width: 100%;   
+    background-color: white;
+}
+
+.contenedor-formulario ul {
+    /*border: solid 2px orange;*/
+    list-style: none;
+    margin-bottom: 0.5rem;
+    
+    
+}
+
+
+.formulario-contacto li {
+    display: flex;
+    flex-direction: column;
+   
+    padding: 0.5rem 1.5rem;
+    
+    /*border: 2px green solid;*/
+   
+   
+}
+
+.formulario-boton {
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.2rem;
+}
+
+.formulario-boton button {
+    color: #e0bb96;
+    border: none;
+    padding: 0.3rem;
+    font-weight: bolder;
+
+}
+
+/*SECTION: RECETAS*/
+
+.recetas h3 {
+    color: white;
+    margin-bottom: 0;
+    height: 70px;
+    width: 100%;
+    
+    text-align: center;
+}
+.recetas {
+    /*border: solid 2px violet;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+}
+
+.receta-one, .receta-two, .receta-three {
+    display: flex;
+    flex-direction: column;
+    margin: 1.8rem auto;
+    /*border: green solid 2px;*/
+    width: 300px;
+    height: 460px;
+}
+
+#imagen-receta-one {
+    background-image: url(../img/conitos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+#imagen-receta-two {
+    background-image: url(../img/pepas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+#imagen-receta-three {
+    background-image: url(../img/torta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+
+.informacion-receta {
+    height: 210px;
+    /*border: solid 2px blue;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #e0bb96;
+    color:rgb(51, 51, 51);
+   
+}
+
+.informacion-receta p {
+    color: white;
+    /*border: solid 2px red;*/
+    max-height: 110px;
+    padding: 0.2rem 0.8rem;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-bottom: 0;
+}
+
+.informacion-receta button {
+    padding: 0.3rem;
+    border-radius: 10%;
+    border: 2px solid rgb(51, 51, 51);
+    background-color: transparent;
+
+}
+
+/*FOOTER*/
+
+footer{
+    /*border:2px solid red;*/
+    background-color: rgb(45, 45, 45);
+    color: white;
+
+}
+
+footer h4 {
+    color:#e0bb96;
+}
+
+footer h3 {
+    text-align: center;
+    color: white;
+    background-color: rgb(45, 45, 45);
+}
+
+.contenido-footer {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+#logo-footer {
+    
+    align-self: center;
+    /*border: solid 2px green;*/
+    margin-bottom: 1.5rem;
+
+}
+
+#redes-footer {
+    
+    /*border:solid 2px blue;*/
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+#redes-footer i{
+    font-size: 150%;
+    margin: 0.5rem;
+    
+}
+
+#ubicacion-footer {
+    align-self: center;
+    /*border: solid 2px yellow;*/
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+#ubicacion-footer p {
+    /*border: solid 2px white;*/
+    margin-bottom: 0;
+}
+
+#maps {
+
+    height: 100px;
+    width:200px;
+}
+@media screen and (min-width: 550px){
+
+    /*Presentacion*/
+    .presentacion {
+        height: 450px;
+        justify-content: center;
+    }
+
+    .info-presentacion {
+        width: 400px;
+        max-height: 550px;
+        padding: 0.5rem 0;
+       
+        margin-right: 1rem; 
+        
+        /*border: 2px solid white;*/    
+    }
+
+    .info-presentacion h1 {
+        margin: 1rem 0 2rem;
+        /*border: solid 2px red;*/
+        padding: 0;
+      
+    }
+
+    .info-presentacion p {
+       
+       /*border: solid 2px blue;*/
+       padding: 0 3rem;
+    }
+
+    /*SECTION CALIDAD DE PRODUCTOS*/
+    .calidad-productos {
+        
+        justify-content: center;       
+        
+    }
+
+    .calidad-productos-iconos {
+        margin: 0 2rem;
+    }
+
+    /*SECTION: PRODUCTOS*/
+    .dulce-de-leche, .dulce-choconutt {
+        display: flex;
+        flex-direction: row;
+        max-width: 1400px;
+        margin: 0 auto 0;
+        height: 440px;
+        
+        
+    }
+    .dulce-sin-azucar {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 440px;
+        
+    }
+
+    .img-productos-one, .img-productos-two, .img-productos-three, .info-productos {
+        width: 50%;
+        height: 100%;
+        
+    }
+   
+
+    .dulce-de-leche .img-productos  {
+       
+        background-position: -190px;
+        
+        
+    }
+
+
+    .info-productos #producto-detalle  {
+        max-width:350px;   
+    }
+    
+    .info-productos h2 {
+        margin-bottom: 1.5rem;
+    }
+
+    .alfajor-maicena {
+        
+        display: flex;
+        flex-direction: row;
+        
+        height: 380px;
+        /*border: solid red 2px;*/
+
+       
+    }
+    .info-alfajor-maicena{
+        /*border: solid 2px orange;*/
+        width: 60%;
+        height: 100%;
+        
+
+    }
+
+    .info-alfajor-maicena button{
+        margin: 0;
+    }
+    .contenedor-img-alfajor {
+        /*border: solid 2px red;*/
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 40%;
+        overflow: hidden;
+    }
+    .contenedor-img-alfajor img {
+        height: 230px;
+        /*border: solid 2px white;*/
+    }
+
+    /*SECTION FORMULARIO*/
+
+    .contenedor-formulario {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        height: 440px;
+        
+    }
+    #imagen-formulario {
+        height: 440px;
+        width:50%;
+        
+        
+        
+    }
+       
+    
+    .formulario-contacto {
+       width: 50%;   
+       height: 440px;
+       margin-top: 0.5rem;
+       padding-top: 0.8rem;
+       
+       /*border: 2px violet solid;*/
+        
+    }
+
+    .formulario-contacto li{
+       
+        margin: 0 0.2rem ;
+       /* border: blue 2px solid;*/
+    }
+
+
+    /*SECTION: RECETAS*/
+    .recetas {
+        /*border: solid 2px violet;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    /*FOOTER*/
+    .contenido-footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+        /*border:solid 2px white;*/
+        margin-top: 0.5rem;
+        
+        
+        
+    }
+
+    
+
+    #redes-footer h4 {
+        margin-bottom: 1rem;
+        
+    }
+
+}
+
+
+@media screen and (min-width: 850px) {
+    .presentacion {      
+        height: 550px;
+        
+    }
+    .contenedor-img-alfajor img {
+        height: 300px;
+        /*border: solid 2px white;*/
+    }
+    .formulario-contacto li{
+       
+        margin: 0 4rem;
+        
+    }
+    
+
+}
+@media screen and (min-width:1100px) {
+    
+    .info-presentacion {
+        /*border: solid 2px white;*/
+        text-align: center;
+       
+        padding: 0.5rem 0;  
+        width: 500px;  
+    } 
+
+    .info-presentacion h1 {
+        font-size: 300%;
+        /*border: solid red 2px;*/
+    }
+
+    .info-presentacion p {
+        padding: 0 4rem;
+        
+        
+    }
+   
+}  
+
+
+
+
+@media screen and (min-width:1400px) {
+    body {
+        width:1400px;
+        margin: 0 auto 0;
+    }
+    
+}
