@@ -354,7 +354,8 @@ h3 {
     border: none;
     padding: 0.3rem;
     font-weight: bolder;
-
+    margin: auto;
+    align-items: center;
 }
 
 /*SECTION: RECETAS*/
@@ -437,6 +438,28 @@ h3 {
     border: 2px solid rgb(51, 51, 51);
     background-color: transparent;
 
+}
+
+/*API*/
+.boton-API {
+    
+    /*border:solid 2px red;*/
+    text-align: center;
+    color: #e0bb96;
+    font-size: 200%;
+    padding: 0.6rem;
+}
+
+.boton-API a {
+    text-decoration: none;
+    background-color: #e0bb96;
+    color: white;
+    font-size: 60%;
+    font-weight: lighter;
+    border-radius: 50%;
+    padding: 0.6rem;
+    margin-left: 0.3rem;
+    /*border: black 2px solid;*/
 }
 
 /*FOOTER*/
@@ -653,6 +676,12 @@ footer h3 {
        
         margin: 0 0.2rem ;
        /* border: blue 2px solid;*/
+    }
+    .formulario-boton button {
+     
+        padding: 0.5rem;
+      
+    
     }
 
 
